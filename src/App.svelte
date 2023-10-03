@@ -4,21 +4,44 @@
 </script>
 <main>
   <Header/>
-  <div class="text-center flex flex-col gap-4">
+  <div class="text-center flex flex-col gap-4 mb-40">
     <h2 class="text-[5rem] m-0">Alpha</h2>
     <p class="text-3xl">A website template by HTML5 UP.</p>
-    <p>Project for WCS Paisley HNC Computing 2023-2024</p>
+    <p>Built for WCS Paisley HNC Computing 2023-2024</p>
     <div class="flex justify-center items-center gap-4 mt-2">
       <button class="bg-[#fff] text-[#666] py-4 px-8 rounded-lg hover:bg-[#444] hover:text-white">Visit Template</button>
       <button class="bg-[#fff] text-[#666] py-4 px-8 rounded-lg hover:bg-[#444] hover:text-white">About</button>
     </div>
   </div>
+
+  <section class="text-[#646464] bg-white mt-2 text-center md:w-3/4 w-full justify-self-center rounded-lg flex flex-col gap-12">
+    <p class="text-3xl p-4">Introducing the ultimate mobile app <br>for doing stuff with your phone</p>
+    <p class="text-3xl">Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare adipiscing nunc adipiscing. Condimentum turpis massa.</p>
+    <img class="w-full " src="pic01.jpg" alt="phone on desk">
+  </section>
+
+  <section class="justify-self-center grid md:grid-cols-2 gap-2 text-[#646464] md:w-3/4 w-full">
+    <div>
+      <h3>Magna etiam</h3>
+      <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+    </div>
+    <div>
+      <h3>Magna etiam</h3>
+      <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+    </div>
+    <div>
+      <h3>Magna etiam</h3>
+      <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+    </div>
+    <div>
+      <h3>Magna etiam</h3>
+      <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+    </div>
+  </section>
+
 </main>
 
-<section class="text-[#646464] mt-2 flex justify-center">
-  <p class="text-3xl">Introducing the ultimate mobile app
-    for doing stuff with your phone</p>
-</section>
+
 
 
 <style>
@@ -39,9 +62,10 @@ main::before {
 }
   main{
     display: grid;
+    gap: 4rem;
     position: relative;
     height: 100vh;
     padding: 0 1rem;
-    overflow: hidden;
+    overflow-x: hidden;
   }
 </style>

@@ -20,23 +20,40 @@
     <img class="w-full " src="pic01.jpg" alt="phone on desk">
   </section>
 
-  <section class="justify-self-center grid md:grid-cols-2 gap-2 text-[#646464] md:w-3/4 w-full">
-    <div>
-      <h3>Magna etiam</h3>
-      <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+  <section class="justify-self-center grid md:grid-cols-2 gap-[5px] text-[#646464] bg-[#cacaca] md:w-3/4 w-full">
+
+    <div class="text-center grid gap-6 p-6 bg-white ">
+      <div class="bg-[#e89980] rounded-full max-w-fit justify-self-center p-8 text-white">
+        <i class="fa-solid fa-bolt-lightning fa-2xl "></i>
+      </div>
+      <h3 class="text-3xl">Magna etiam</h3>
+      <p class="w-3/5 justify-self-center">Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
     </div>
-    <div>
-      <h3>Magna etiam</h3>
-      <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+
+    <div class="text-center grid gap-6 p-6 bg-white ">
+      <div class="bg-[#7fcdb8] rounded-full max-w-fit justify-self-center p-8 text-white">
+        <i class="fa-solid fa-chart-area fa-2xl "></i>
+      </div>
+      <h3 class="text-3xl">Magna etiam</h3>
+      <p class="w-3/5 justify-self-center">Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
     </div>
-    <div>
-      <h3>Magna etiam</h3>
-      <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+
+    <div class="text-center grid gap-6 p-6 bg-white ">
+      <div class="bg-[#90b0ba] rounded-full max-w-fit justify-self-center p-8 text-white">
+        <i class="fa-solid fa-cloud fa-2xl "></i>
+      </div>
+      <h3 class="text-3xl">Magna etiam</h3>
+      <p class="w-3/5 justify-self-center">Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
     </div>
-    <div>
-      <h3>Magna etiam</h3>
-      <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+
+    <div class="text-center grid gap-6 p-6 bg-white ">
+      <div class="bg-[#e5cb95] rounded-full max-w-fit justify-self-center p-8 text-white">
+        <i class="fa-solid fa-lock fa-2xl "></i>
+      </div>
+      <h3 class="text-3xl">Magna etiam</h3>
+      <p class="w-3/5 justify-self-center">Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
     </div>
+
   </section>
 
 </main>

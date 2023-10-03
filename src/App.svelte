@@ -1,5 +1,6 @@
 <script>
-  import Header from "./components/Header.svelte";
+  import Footer from "./components/Footer.svelte";
+import Header from "./components/Header.svelte";
 
 </script>
 <main>
@@ -16,7 +17,7 @@
 
   <section class="text-[#646464] bg-white mt-2 text-center md:w-3/4 w-full justify-self-center rounded-lg flex flex-col gap-12">
     <p class="text-3xl p-4">Introducing the ultimate mobile app <br>for doing stuff with your phone</p>
-    <p class="text-3xl">Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare adipiscing nunc adipiscing. Condimentum turpis massa.</p>
+    <p class="text-3xl py-2 px-4">Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare adipiscing nunc adipiscing. Condimentum turpis massa.</p>
     <img class="w-full " src="pic01.jpg" alt="phone on desk">
   </section>
 
@@ -56,6 +57,29 @@
 
   </section>
 
+  <section class="justify-self-center grid md:grid-cols-2 gap-6 pb-8 text-[#646464] bg-white md:w-3/4 w-full">
+
+    <div class="w-full text-center">
+      <img class="w-full " src="road.jpg" alt="phone on desk">
+      <h3 class="text-3xl p-4">Sed lorem adipiscing</h3>
+      <p class="text-xl p-4">
+        Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
+      </p>
+      <button class="bg-[#fff] text-[#666] border-2 border-[#646464] py-4 px-8 rounded-lg hover:bg-[#444] hover:text-white">Learn More</button>
+    </div>
+
+    <div class="w-full text-center">
+      <img class="w-full " src="mountain.jpg" alt="phone on desk">
+      <h3 class="text-3xl p-4">Accumsan integer</h3>
+      <p class="text-xl p-4">
+        Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
+      </p>
+      <button class="bg-[#fff] text-[#666] border-2 border-[#646464] py-4 px-8 rounded-lg hover:bg-[#444] hover:text-white">Learn More</button>
+    </div>
+
+  </section>
+
+  <Footer/>
 </main>
 
 
@@ -82,7 +106,6 @@ main::before {
     gap: 4rem;
     position: relative;
     height: 100vh;
-    padding: 0 1rem;
     overflow-x: hidden;
   }
 </style>

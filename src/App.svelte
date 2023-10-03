@@ -97,7 +97,7 @@ main::before {
     right: 0;
     bottom: 0;
     left: 0;
-    background: url("nyc-bg.jpg");
+    background: url("../nyc-bg.jpg");
     background-size: cover;
     background-position: center;
     filter: blur(5px) brightness(0.4);

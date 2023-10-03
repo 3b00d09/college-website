@@ -8,7 +8,11 @@ import Header from "./components/Header.svelte";
   <div class="text-center flex flex-col gap-4 mb-40">
     <h2 class="text-[5rem] m-0">Alpha</h2>
     <p class="text-3xl">A website template by HTML5 UP.</p>
-    <p>Built for WCS Paisley HNC Computing 2023-2024</p>
+    <p>
+      Built for WCS Paisley HNC Computing 2023-2024
+      <br>
+      By Abdullah Atiya
+    </p>
     <div class="flex justify-center items-center gap-4 mt-2">
       <button class="bg-[#fff] text-[#666] py-4 px-8 rounded-lg hover:bg-[#444] hover:text-white">Visit Template</button>
       <button class="bg-[#fff] text-[#666] py-4 px-8 rounded-lg hover:bg-[#444] hover:text-white">About</button>
